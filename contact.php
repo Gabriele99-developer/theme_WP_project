@@ -12,25 +12,25 @@ get_header();
     <title>Contact Form</title>
   </head>
     <body>
-      <section class="home" id="modulo">       
+      <section class="home" id="module">       
           <h1>Per contattarci</h1>
           <h2>Compilate il modulo qui sotto!</h2>
           <form action="/wp-content/themes/theme_WP_project/send.php" method="post">
             <ul>
-              <li class="uno">
+              <li class="one">
                 <label for="name">Nome</label> <!--is the name field-->
-                <input type="text" name="name" placeholder="Il tuo nome" class="testo" /><br>
+                <input type="text" name="name" placeholder="Il tuo nome" class="text" /><br>
               </li>
-              <li class="due">
+              <li class="two">
                 <label for="email">Email</label><!--is the email field-->
-                <input type="email" name="email" id="email" class="testo" placeholder="La tua email" required />
+                <input type="email" name="email" id="email" class="text" placeholder="La tua email" required />
               </li>
-              <li class="tre">
+              <li class="three">
                 <label for="testo">Messaggio</label><!--is the message field-->
                 <textarea name="message" rows="8" cols="80" placeholder="Il tuo messaggio"></textarea><br>
               </li>
-              <li class="quattro">
-                <input type="submit" value="Invia" class="pulsante"><!--button to send the request-->
+              <li class="four">
+                <input type="submit" value="Invia" class="button"><!--button to send the request-->
               </li>
             </ul>
           </form>
