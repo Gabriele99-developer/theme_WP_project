@@ -1,5 +1,8 @@
 # Theme_WP_project
 This project is the theme for wordpress.
+This theme was created by Alunni Gradini Gabriele, for the wordpress project for start2impact.
+This theme was used to create a site about a pizzeria in a small town on the outskirts of Perugia.
+The project was exported with the WP-All-In-One Migration plugin, which you can find inside the folder: WP-All-In-One.
 ## What the theme is made of:
 * Header
 * Menu
